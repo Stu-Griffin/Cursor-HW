@@ -1,0 +1,122 @@
+/*@media (max-width:1342px) {
+    .profile-inf {
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+    .container-with-photo {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (max-width:1342px) {
+    .profile-inf {
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+}
+@media (max-width:1224px) {
+    .profile-inf {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media (max-width:1155px) {
+    .profile-inf {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media (max-width:1155px) {
+    .profile-inf {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+@media (max-width:1128px) {
+    .future-image {
+        width: 344px;
+    }
+    .stories {
+         padding-left: 0rem; 
+         padding-right: 0rem;
+    }
+}
+@media (max-width:1095px) {
+    .future-image {
+        width: 314px;
+    }
+    .inf-button {
+        visibility: inherit;
+    }
+}
+@media (max-width:1015px) {
+    .header {
+        justify-content: center;
+    }
+    .dop-inf {
+        text-align: center;
+    }
+    .numbers {
+        justify-content: center;
+    }
+    .profile-inf {
+        display: block;
+        justify-content: center;
+    }
+    .my-stories {
+        width: 104px;
+    }
+}
+@media (max-width:1009px) {
+    .future-image {
+        width: 236px;
+    }
+    .profile-inf {
+        padding-bottom: 0rem;
+    }   
+}
+@media (max-width:774px) {
+    .future-image {
+        width: 197px;
+    }
+    .my-stories {
+        width: max-content;
+    }
+}
+@media (max-width:740px) {
+    .inf-prof {
+        padding-left: 1rem;
+    }
+}
+@media (max-width: 670px) {
+    .future-image {
+        width: 325px;
+    }
+}
+@media (max-width: 645px) {
+    .menus {
+        visibility: hidden;
+    }
+    .btn-menu {
+        visibility: initial;
+        margin-left: 1%;
+    }
+}
+@media (max-width:556px) {
+    .lorem {
+        font-size: 12px;
+    }
+    article:first-child {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media (max-width: 440px) {
+    article:first-child {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .nav {
+        justify-content: center;
+    }
+}*/

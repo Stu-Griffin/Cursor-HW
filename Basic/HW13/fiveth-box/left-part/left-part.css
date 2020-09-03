@@ -1,0 +1,17 @@
+.S-button {
+  height: 36px;
+}
+
+.body-first-row {
+  display: flex;
+}
+
+.body-second-row, .body-third-row {
+  margin-top: 1rem;
+}
+
+.M-button, .S-button {
+  height: 36px !important;
+}
+
+/*# sourceMappingURL=left-part.css.map */

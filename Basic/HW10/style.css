@@ -1,0 +1,149 @@
+.red-circle {
+    width: 18px;
+    height: 18px;
+    background: #DC565B;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: -10%;
+    margin-left: -22%;
+}
+.message {
+    width: max-content;
+    margin-top: 0.25rem;
+}
+.avatar {
+    border-radius: 100%;
+    width: 154px;
+    height: 153px;
+    border: 1px solid black;
+}
+.followers {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav1 {
+    justify-content: center;
+}
+.icon {
+    margin-top: -0.25rem;
+}
+.future-image {
+    margin: 1rem;
+    width: 325px;
+}
+.prof-inf {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    display: flex;
+}
+.numbers {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.first {
+    margin-left: 1.5rem;
+}
+.second {
+    margin-left: 0.5rem;
+}
+.third {
+    margin-left: 0.5rem;
+}
+.search-area {
+    background: url(image/search.svg);
+    background-size: 6%;
+    background-position-x: 20%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    padding-left: 72px;
+}
+.stories {
+    display: grid;
+    text-align: center;
+}
+.stories-container {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+@media (max-width: 1200px) {
+    .prof-inf {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+    .profile-inf {
+        margin-top: 2rem;
+    }
+    .stories-container {
+        justify-content: center;
+    }
+    .posts {
+        display: grid;
+        justify-content: center;
+    }
+}
+@media (max-width: 850px) {
+    .navbar  {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .active {
+        padding-left: 0;
+    }
+    ul {
+        justify-content: center;
+    }
+    .input-group {
+        width: auto;
+    }
+    .search-area {
+        background: url(image/search.svg);
+        background-size: 19px;
+        background-position-x: 7%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 500px) {
+    .prof-inf {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .active {
+        padding-left: 1rem;
+    }
+    .border {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 450px) {
+    .stories-container {
+        padding-left: 0rem; 
+        padding-right: 0rem;
+    }
+}
+@media (max-width: 375px) {
+    .search-area {
+        background: url(image/search.svg);
+        background-size: 19px;
+        background-position-x: 7%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-left: 0px;
+    }
+}

@@ -1,0 +1,40 @@
+.active-button-Tag {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 10px;
+  width: 65px;
+  height: 28px;
+  /* Colors / White */
+  background: #FFFFFF;
+  /* Colors / Light / Light Gray */
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: right;
+  /* Colors / Light / Description Color */
+  color: #2C2C2C;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 6px 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  margin: 0rem;
+}
+
+svg {
+  width: 7px;
+  height: 7px;
+}
+
+/*# sourceMappingURL=active-button-style.css.map */

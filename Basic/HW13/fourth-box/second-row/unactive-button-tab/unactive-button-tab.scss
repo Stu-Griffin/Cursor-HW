@@ -1,0 +1,40 @@
+.unactive-button-tab {
+    display: flex;
+    flex-direction: row;
+    padding: 14px 48px;
+
+    /* Colors / White */
+
+    background: #FFFFFF;
+    /* Colors / Light / Light Gray */
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    margin: 0px 0px;
+}
+p { 
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0rem;
+}

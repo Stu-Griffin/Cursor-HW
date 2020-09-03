@@ -1,0 +1,22 @@
+.hover-button {
+  display: flex;
+  flex-direction: row;
+  padding: 14px 36px;
+  background: #FFFFFF;
+  border: 1px solid #18A0FB;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #18A0FB;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0px;
+}
+
+/*# sourceMappingURL=fourth-buttonstyle.css.map */

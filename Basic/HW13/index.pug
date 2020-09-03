@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        title Document
+    body.body-main
+        .left-part
+            include first-box/first-box.pug
+            style 
+                include first-box/first-box-style.css
+
+            include second-box/second-box.pug
+            style 
+                include second-box/second-box-style.css
+
+            include third-box/third-box.pug
+            style 
+                include third-box/third-box-style.css
+        .right-part
+            include fourth-box/fourth-box.pug
+            style 
+                include fourth-box/fourth-box.css
+            .second-right-part
+            include fiveth-box/fiveth-box.pug
+            style 
+                include fiveth-box/fiveth-box.css

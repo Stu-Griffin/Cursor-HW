@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="deutchland.png" type="image/x-icon"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HW "Поняття Front-End. HTML"</title>
+  </head>
+  <body>
+    <div class="center">
+      <div>
+        <h1>Table</h1>
+        <table border="1px">
+          <tr>
+            <th>name</th>
+            <th>surname</th>
+            <th>phone</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td>Михаил</td>
+            <td>Лазарев</td>
+            <td>21-3-436</td>
+            <td>1234@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Лев</td>
+            <td>Комисаров</td>
+            <td>51-5-463</td>
+            <td>2134@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Кирилл</td>
+            <td>Ефремов</td>
+            <td>21-8-777</td>
+            <td>4321@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Глеб</td>
+            <td>Жданов</td>
+            <td>50-3-456</td>
+            <td>4123@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+      <form>
+        <h2>Inf you must enter</h2>
+        <p><input class="emailInf" placeholder="your name please" /></p>
+
+        <p>
+          <input class="emailInf" placeholder="don't forget your surname" />
+        </p>
+        <h2>Tell about you</h2>
+        <h3>Gender</h3>
+        <p>
+          <label><input type="radio" name="gender" value="manle" /> M</label>
+        </p>
+
+        <p>
+          <label><input type="radio" name="gender" value="female" /> F</label>
+        </p>
+
+        <textarea
+          class="emailInf"
+          name="message"
+          rows="5"
+          cols="50"
+          placeholder="tell about you something"
+        ></textarea>
+
+        <h2>Not necessary inf</h2>
+        <select>
+          <option disabled selected>Choose city</option>
+          <option value="Київ">Київ</option>
+          <option value="Berlin">Berlin</option>
+          <option value="London">London</option>
+        </select>
+        <h3>Choose your language:</h3>
+        <p>
+          <label class="city"><input type="checkbox" />Українська</label>
+        </p>
+
+        <p>
+          <label class="city"><input type="checkbox" />Deutch</label>
+        </p>
+
+        <p>
+          <label class="city"><input type="checkbox" />English</label>
+        </p>
+
+        <p><input class="button" type="submit" value="send" /></p>
+      </form>
+    </div>
+  </body>
+</html>

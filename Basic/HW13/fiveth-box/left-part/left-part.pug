@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="left-part.css")
+        title Document
+    body.body-left-part
+        .body-first-row
+            include first-row/first-row.pug
+            style 
+                include first-row/first-row.css
+        .body-second-row
+            include second-row/second-row.pug
+            style 
+                include second-row/second-row.css
+        .body-third-row
+            include third-row/third-row.pug
+            style 
+                include third-row/third-row.css

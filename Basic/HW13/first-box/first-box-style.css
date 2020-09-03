@@ -1,0 +1,31 @@
+.box {
+  display: block;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+}
+
+.third-row {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+}
+
+.fourth-row {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+}
+
+.main-button, .unactive-button, .simple-button, .hover-button {
+  padding: 10px 21px;
+}
+
+.button-with-out-icon {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=first-box-style.css.map */

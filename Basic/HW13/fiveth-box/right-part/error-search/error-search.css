@@ -1,0 +1,11 @@
+.error-search-button {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: none;
+  /* Colors / Light / Error */
+  background: #FF3E1D;
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=error-search.css.map */

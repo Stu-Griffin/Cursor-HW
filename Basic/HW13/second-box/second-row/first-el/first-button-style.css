@@ -1,0 +1,26 @@
+.main-button {
+  padding: 10px 24px;
+  border: 1px #18A0FB;
+  width: 111px;
+  height: 36px;
+  /* Colors / Light / Accent */
+  background: #18A0FB;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  /* Inside Auto Layout */
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.button-with-out-icon {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=first-button-style.css.map */

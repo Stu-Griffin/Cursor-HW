@@ -1,0 +1,35 @@
+.S-button {
+  display: flex;
+  flex-direction: row;
+  width: 58px;
+  height: 36px;
+  /* Colors / Light / Accent */
+  border: 1px #18A0FB;
+  background: #18A0FB;
+  border-radius: 5px 0px 0px 5px;
+  justify-content: center;
+  align-items: center;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.S-button p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  /* Colors / White */
+  color: #FFFFFF;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0rem;
+}
+
+/*# sourceMappingURL=S.css.map */

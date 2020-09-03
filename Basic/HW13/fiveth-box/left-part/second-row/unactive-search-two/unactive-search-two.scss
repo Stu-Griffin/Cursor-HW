@@ -1,0 +1,24 @@
+.unactive-search-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 36px;
+    
+    /* Colors / White */
+    
+    background: #FFFFFF;
+    /* Colors / Light / Light Gray */
+    
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 0px 0px;
+}

@@ -1,0 +1,29 @@
+.main-button {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 12px;
+    width: 116px;
+    height: 36px;
+    background: #FF3E1D;
+    border-radius: 5px;
+    border: hidden;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
+    align-items: center;
+}
+.icon {
+    margin-right: 0.25rem;
+}
+p {
+    margin: 0rem;
+}

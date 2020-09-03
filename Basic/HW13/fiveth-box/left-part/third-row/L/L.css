@@ -1,0 +1,37 @@
+.L-button {
+  display: flex;
+  flex-direction: row;
+  width: 58px;
+  height: 36px;
+  /* Colors / White */
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  /* Colors / Light / Light Gray */
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 0px 5px 5px 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  align-self: flex-start;
+  margin: 0px 0px;
+}
+
+.L-button p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  /* Colors / Light / Description Color */
+  color: #2C2C2C;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0rem;
+}
+
+/*# sourceMappingURL=L.css.map */

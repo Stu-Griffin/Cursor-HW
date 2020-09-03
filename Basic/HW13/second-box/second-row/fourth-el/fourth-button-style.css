@@ -1,0 +1,33 @@
+.hover-button {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: center;
+  /* Colors / Light / Accent */
+  color: #18A0FB;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 24px;
+  width: 111px;
+  height: 36px;
+  /* Colors / White */
+  background: #FFFFFF;
+  /* Colors / Light / Accent */
+  border: 1px solid #18A0FB;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button-with-out-icon {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=fourth-button-style.css.map */

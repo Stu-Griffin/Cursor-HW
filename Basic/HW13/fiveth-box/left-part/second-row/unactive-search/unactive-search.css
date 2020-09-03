@@ -1,0 +1,20 @@
+.unactive-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 36px;
+  /* Colors / White */
+  border: none;
+  background: #FFFFFF;
+  box-shadow: inset 0px -1px 0px #E0E0E0, inset 0px 1px 0px #E0E0E0;
+  border-radius: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: flex-start;
+  margin: 0px 0px;
+}
+
+/*# sourceMappingURL=unactive-search.css.map */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="deutchland.png" type="image/x-icon"/>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(61, 60, 60);
+        }
+        div {
+            display: flex;
+        justify-content: center;
+        }
+        h1 {
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function randomNumber(min, max) {
+            return Math.floor(Math.random() * ((min - max + 1) + min) * (-1))
+        }
+        const randomPassword = randomNumber(0,10000000000)
+        
+        alert("password: " + randomPassword);
+        // function checkPassword() {
+        //     var password = document.getElementById("box");          /*говорим найти за id box*/
+        //     var passwordKey = password.value;                       /*говорим взять "содержимое"  этого id*/
+        //     if (passwordKey == randomPassword) {                            /*условие, тут все понятно*/
+        //         return true;                                        /*если условие true тогда делаем return true*/
+        //     }
+        //     alert("weong password");                                /*если условие ложно оповешяем клиента*/
+        //     return false;                                           /*возвращяем его от куда начел*/
+        // }
+
+        /*стрелочная функцыя*/
+        let checkPassword = () => {
+            var password = document.getElementById("box");          /*говорим найти за id box*/
+            var passwordKey = password.value;                       /*говорим взять "содержимое"  этого id*/
+            if (passwordKey == randomPassword) {                            /*условие, тут все понятно*/
+                return true;                                        /*если условие true тогда делаем return true*/
+            }
+            alert("weong password");                                /*если условие ложно оповешяем клиента*/
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <h1>Put your password</h1>
+    <div>
+        <input type="password" id="box"/>
+        <a onclick="return checkPassword();" href="main-list/index.html" target="blank"><button>check</button></a>
+    </div> 
+    <!--там где onclick мы говорим браузеру чтобы он вернул нам функцыю checkPasswor(), кстати не забудь писать полностью имя функцыи () 
+    тоже считаються, если бы в них что-то было написано тогда ты бы писал еще содержимое (), смотри не забудь-->
+</body>
+</html>

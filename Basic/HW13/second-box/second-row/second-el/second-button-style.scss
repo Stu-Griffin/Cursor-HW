@@ -1,0 +1,36 @@
+.unactive-button {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Colors / Dark / Light Gray */
+    border: 1px rgba(224, 224, 224, 0.3);
+    color: #878787;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 24px;
+
+    width: 111px;
+    height: 36px;
+
+    /* Colors / Disabled */
+
+    background: rgba(224, 224, 224, 0.3);
+    border-radius: 5px;
+}
+.button-with-out-icon {
+    justify-content: center;
+}

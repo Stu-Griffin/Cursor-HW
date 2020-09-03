@@ -1,0 +1,35 @@
+.unactive-button-Tag {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 10px;
+  width: 65px;
+  height: 28px;
+  left: 138px;
+  top: 626px;
+  /* Colors / Light / Accent */
+  background: #18A0FB;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  border: none;
+  line-height: 16px;
+  /* identical to box height */
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  /* Colors / White */
+  color: #FFFFFF;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 6px 0px;
+}
+
+p {
+  margin: 0rem;
+}
+
+/*# sourceMappingURL=unactive-button-style.css.map */

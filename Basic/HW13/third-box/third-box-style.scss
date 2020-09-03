@@ -1,0 +1,14 @@
+body {
+    display: block;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    width: 144px;
+
+}
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    width: 127px;
+}

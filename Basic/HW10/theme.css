@@ -1,0 +1,29 @@
+.input-group {
+    width: max-content;
+}
+.mb-3, .my-3 {
+    margin-bottom: 0rem!important;
+} 
+@media (min-width: 992px) {
+.navbar-expand-lg {
+    justify-content: space-between;
+    }
+}
+.navbar {
+    padding: .5rem 6rem;
+}
+.border {
+    border-radius: 100%;
+    width: 79px;
+    height: 79px;
+    border: 1px solid #000000!important;
+}
+.border-top {
+    border-top: 1px solid #262626!important;
+}
+.btn {
+    padding-left: 11px;
+    padding-top: 3px;
+    padding-right: 11px;
+    padding-bottom: 3px;
+}

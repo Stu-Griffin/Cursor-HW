@@ -1,0 +1,35 @@
+.M-button {
+  display: flex;
+  flex-direction: row;
+  width: 58px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  /* Colors / White */
+  border: white 1px;
+  background: #FFFFFF;
+  box-shadow: inset 0px -1px 0px #E0E0E0, inset 0px 1px 0px #E0E0E0;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: flex-start;
+  margin: 0px 0px;
+}
+
+.M-button p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  /* Colors / Light / Description Color */
+  color: #2C2C2C;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0rem;
+}
+
+/*# sourceMappingURL=M.css.map */
