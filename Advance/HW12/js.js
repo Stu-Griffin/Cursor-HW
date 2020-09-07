@@ -47,13 +47,17 @@ let page = 1;
 function urlForPlanets(page) {
   return `${mainURL}planets/?page=${page}`;
 }
+const getPlanetInfoCard = (planet) => {
+  return`<div class="planet-inf-box"> 
+          <h3>Name</h3>
+          <h4>: ${planet.name},</h4> 
+        </div>`
+}
 planetsButton.addEventListener("click", () => {
   sendRequest(urlForPlanets(page)).then((data) => {
     let planet = "";
     data.results.forEach((el) => {
-      planet += `<div class="planet-inf-box">
-                  <h3>Name</h3><h4>: ${el.name},</h4>
-                </div>`;
+      planet += getPlanetInfoCard(el);
       resultAreaForPlanets.innerHTML = `${planet}`;
     });
   });
@@ -67,9 +71,7 @@ nextButton.addEventListener("click", () => {
     sendRequest(urlForPlanets((page += 1))).then((data) => {
       let planet = "";
       data.results.forEach((el) => {
-        planet += `<div class="planet-inf-box">
-                    <h3>Name</h3><h4>: ${el.name},</h4>
-                  </div>`;
+        planet += getPlanetInfoCard(el);
         resultAreaForPlanets.innerHTML = `${planet}`;
       });
       currentPage += page;
@@ -84,9 +86,7 @@ prevButton.addEventListener("click", () => {
     sendRequest(urlForPlanets((page -= 1))).then((data) => {
       let planet = "";
       data.results.forEach((el) => {
-        planet += `<div class="planet-inf-box">
-                    <h3>Name</h3><h4>: ${el.name},</h4>
-                  </div>`;
+        planet += getPlanetInfoCard(el);
         resultAreaForPlanets.innerHTML = `${planet}`;
       });
       currentPage -= page;
